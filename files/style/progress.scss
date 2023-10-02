@@ -1,0 +1,113 @@
+// Progress BBCode by www.cls-design.com
+
+.progress-bar-wrapper {
+	--progress-bar-height: 15px;
+	--progress-bar-radius: 10px;
+
+	.progress-bar {
+		display: flex;
+		align-items: center;
+
+		>div:first-child {
+			flex-basis: calc(100% - 50px);
+			max-width: calc(100% - 50px);
+			height: var(--progress-bar-height);
+			border-radius: var(--progress-bar-radius);
+			overflow: hidden;
+
+			>div {
+				height: var(--progress-bar-height);
+				border-radius: var(--progress-bar-radius) 0 0 var(--progress-bar-radius);
+			}
+		}
+
+		>div:last-child {
+			width: 50px;
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+		}
+	}
+
+	// Colors
+
+	.progress-bar-color-scheme-0 {
+		background-color: #79AFFF;
+
+		>div {
+			background-color: #1B6FFC;
+		}
+	}
+
+	.progress-bar-color-scheme-1 {
+		background-color: #80D6E1;
+
+		>div {
+			background-color: #1B8FA0;
+		}
+	}
+
+	.progress-bar-color-scheme-2 {
+		background-color: #73DEAF;
+
+		>div {
+			background-color: #1F9660;
+		}
+	}
+
+	.progress-bar-color-scheme-3 {
+		background-color: #AADA67;
+
+		>div {
+			background-color: #5F8F20;
+		}
+	}
+
+	.progress-bar-color-scheme-4 {
+		background-color: #F3C63E;
+
+		>div {
+			background-color: #AA7B00;
+		}
+	}
+
+	.progress-bar-color-scheme-5 {
+		background-color: #FEBD70;
+
+		>div {
+			background-color: #D4650A;
+		}
+	}
+
+	.progress-bar-color-scheme-6 {
+		background-color: #FF9184;
+
+		>div {
+			background-color: #DF402F;
+		}
+	}
+
+	.progress-bar-color-scheme-7 {
+		background-color: #F68CCC;
+
+		>div {
+			background-color: #C54792;
+		}
+	}
+
+	.progress-bar-color-scheme-8 {
+		background-color: #AFA2F5;
+
+		>div {
+			background-color: #7765D6;
+		}
+	}
+
+	.progress-bar-color-scheme-9 {
+		background-color: #b7b7b7;
+
+		>div {
+			background-color: #595959;
+		}
+	}
+}
