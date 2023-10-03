@@ -3,6 +3,7 @@
 .progress-bar-wrapper {
 	--progress-bar-height: 15px;
 	--progress-bar-radius: 10px;
+	--progress-bar-radius-small: 5px;
 
 	.progress-bar {
 		display: flex;
@@ -17,7 +18,8 @@
 
 			>div {
 				height: var(--progress-bar-height);
-				border-radius: var(--progress-bar-radius) 0 0 var(--progress-bar-radius);
+				border-radius:
+					var(--progress-bar-radius) var(--progress-bar-radius-small) var(--progress-bar-radius-small) var(--progress-bar-radius);
 			}
 		}
 
@@ -28,11 +30,17 @@
 			align-items: center;
 		}
 	}
+}
 
-	// Colors
+// Colors
+
+html[data-color-scheme="light"] {
+	.progress-bar>div>div {
+		box-shadow: 0 0 25px 0 rgba(255, 255, 255, 0.3);
+	}
 
 	.progress-bar-color-scheme-0 {
-		background-color: #79AFFF;
+		background-color: #9bc4ff;
 
 		>div {
 			background-color: #1B6FFC;
@@ -80,7 +88,7 @@
 	}
 
 	.progress-bar-color-scheme-6 {
-		background-color: #FF9184;
+		background-color: #ff9a8e;
 
 		>div {
 			background-color: #DF402F;
@@ -108,6 +116,92 @@
 
 		>div {
 			background-color: #595959;
+		}
+	}
+}
+
+html[data-color-scheme="dark"] {
+	.progress-bar>div>div {
+		box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+	}
+
+	.progress-bar-color-scheme-0 {
+		background-color: #1B6FFC;
+
+		>div {
+			background-color: #9bc4ff;
+		}
+	}
+
+	.progress-bar-color-scheme-1 {
+		background-color: #1B8FA0;
+
+		>div {
+			background-color: #80D6E1;
+		}
+	}
+
+	.progress-bar-color-scheme-2 {
+		background-color: #1F9660;
+
+		>div {
+			background-color: #73DEAF;
+		}
+	}
+
+	.progress-bar-color-scheme-3 {
+		background-color: #5F8F20;
+
+		>div {
+			background-color: #AADA67;
+		}
+	}
+
+	.progress-bar-color-scheme-4 {
+		background-color: #AA7B00;
+
+		>div {
+			background-color: #F3C63E;
+		}
+	}
+
+	.progress-bar-color-scheme-5 {
+		background-color: #D4650A;
+
+		>div {
+			background-color: #FEBD70;
+		}
+	}
+
+	.progress-bar-color-scheme-6 {
+		background-color: #DF402F;
+
+		>div {
+			background-color: #ff9a8e;
+		}
+	}
+
+	.progress-bar-color-scheme-7 {
+		background-color: #C54792;
+
+		>div {
+			background-color: #F68CCC;
+		}
+	}
+
+	.progress-bar-color-scheme-8 {
+		background-color: #7765D6;
+
+		>div {
+			background-color: #AFA2F5;
+		}
+	}
+
+	.progress-bar-color-scheme-9 {
+		background-color: #595959;
+
+		>div {
+			background-color: #b7b7b7;
 		}
 	}
 }
