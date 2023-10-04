@@ -1,13 +1,13 @@
 # com.cls-design.wcf.progress.bbcode
 WoltLab Suite: Progress BBCode
 
-This code provides a simple representation of a progress in the form of a bar.
+This BBCode provides a simple representation of a progress in the form of a bar.
 
-Usage:
+Usage
 
 Example:
 
-[progress='30','2']Title[/progress]
+[progress=30,2]Title[/progress]
 
 The first attribute defines the progress on a scale of 0-100. If no attribute is specified a progress of 25% is used to prevent the BBCode from being rendered.
 
