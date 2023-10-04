@@ -1,18 +1,26 @@
 // Progress BBCode by www.cls-design.com
 
 .progress-bar-wrapper {
-	--progress-bar-height: 15px;
+	--progress-bar-height: 12px;
 	--progress-bar-radius: 10px;
 	--progress-bar-radius-small: 5px;
-	font-weight: 600;
+
+	+.progress-bar-wrapper {
+		margin-top: 5px;
+	}
+
+	>p {
+		margin: 0;
+		font-weight: 600;
+	}
 
 	.progress-bar {
 		display: flex;
 		align-items: center;
 
 		>div:first-child {
-			flex-basis: calc(100% - 50px);
-			max-width: calc(100% - 50px);
+			flex-basis: calc(100% - 40px);
+			max-width: calc(100% - 40px);
 			height: var(--progress-bar-height);
 			border-radius: var(--progress-bar-radius);
 			overflow: hidden;
@@ -25,11 +33,11 @@
 		}
 
 		>div:last-child {
-			width: 50px;
+			width: 40px;
 			display: flex;
 			justify-content: flex-end;
 			align-items: center;
-			font-weight: 400;
+			font-size: 12px;
 		}
 	}
 }

@@ -26,7 +26,7 @@ final class ProgressBBCode extends AbstractBBCode {
 			
 			return <<<HTML
 			<div class="progress-bar-wrapper">
-				{$contentWrapper}
+				{$content}
 				<div class="progress-bar">
 					<div class="progress-bar-color-scheme-{$progressColorscheme}">
 						<div style="width: {$progressbarWidth}%;"></div>
