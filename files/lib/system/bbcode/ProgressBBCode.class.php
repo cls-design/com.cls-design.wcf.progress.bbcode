@@ -19,7 +19,7 @@ final class ProgressBBCode extends AbstractBBCode {
 	 */
 	public function getParsedTag(array $openingTag, $content, array $closingTag, BBCodeParser $parser) : string {
 		$progressbarWidth = (int) ($openingTag['attributes'][0] ?? '25%');
-		$progressColorscheme = StringUtil::trim($openingTag['attributes'][1] ?? '0');
+		$progressColorscheme = (int) ($openingTag['attributes'][1] ?? '0');
 		$content = MessageUtil::stripCrap(StringUtil::trim($content));
 		
 		if ($parser->getOutputType() == 'text/html') {
