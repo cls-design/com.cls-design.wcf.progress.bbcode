@@ -4,7 +4,7 @@
         <bbcode name="progress">
             <buttonlabel>wcf.editor.button.progress</buttonlabel>
             <classname>wcf\system\bbcode\ProgressBBCode</classname>
-            <wysiwygicon>bars-progress;true</wysiwygicon>
+            <wysiwygicon>bars-progress</wysiwygicon>
             <isBlockElement>1</isBlockElement>
             <wysiwyg>1</wysiwyg>
             <attributes>
