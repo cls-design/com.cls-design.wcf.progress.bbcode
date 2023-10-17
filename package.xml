@@ -5,8 +5,8 @@
 		<packagename language="en">WoltLab Suite Core: BBCode progress</packagename>
 		<packagedescription><![CDATA[Adds an bbcode "progress"]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Fügt einen BBCode "Fortschritt" hinzu]]></packagedescription>
-		<version>1.0.0</version>
-		<date>2023-09-28</date>
+		<version>1.0.1</version>
+		<date>2023-10-16</date>
 	</packageinformation>
 
 	<authorinformation>
@@ -15,16 +15,20 @@
 	</authorinformation>
 
 	<requiredpackages>
-		<requiredpackage minversion="6.0.0 RC 2">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="5.5.16">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 	
 	<excludedpackages>
-		<excludedpackage version="7.0.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+		<excludedpackage version="6.0.0 Alpha 1">com.woltlab.wcf</excludedpackage>
 	</excludedpackages>
 
 	<instructions type="install">
-		<instruction type="file">files.tar</instruction>
+		<instruction type="file"></instruction>
 		<instruction type="bbcode"></instruction>
 		<instruction type="language"></instruction>
+	</instructions>
+
+	<instructions type="update" fromversion="1.0.0">
+		<instruction type="file"></instruction>
 	</instructions>
 </package>

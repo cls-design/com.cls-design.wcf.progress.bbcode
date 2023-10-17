@@ -4,12 +4,12 @@
         <bbcode name="progress">
             <buttonlabel>wcf.editor.button.progress</buttonlabel>
             <classname>wcf\system\bbcode\ProgressBBCode</classname>
-            <wysiwygicon>bars-progress</wysiwygicon>
+            <wysiwygicon>fa-tasks</wysiwygicon>
             <isBlockElement>1</isBlockElement>
             <wysiwyg>1</wysiwyg>
             <attributes>
                 <attribute name="0">
-                    <validationpattern>[0-9]?[0-9]?[0-9]</validationpattern>
+                    <validationpattern>^[0-9]$|^[1-9][0-9]$|^(100)$</validationpattern>
                     <required>1</required>
                 </attribute>
                 <attribute name="1">

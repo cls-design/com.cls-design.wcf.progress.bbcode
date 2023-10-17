@@ -3,4 +3,7 @@
 	<category name="wcf.editor">
 		<item name="wcf.editor.button.progress"><![CDATA[Progress [progress=0-100,1-9]Title[/progress]]]></item>
 	</category>
+	<category name="wcf.bbcode">
+		<item name="wcf.bbcode.progress"><![CDATA[Progress]]></item>
+	</category>	
 </language>
