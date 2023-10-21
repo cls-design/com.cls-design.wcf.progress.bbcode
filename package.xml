@@ -6,7 +6,7 @@
 		<packagedescription><![CDATA[Adds an bbcode "progress"]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Fügt einen BBCode "Fortschritt" hinzu]]></packagedescription>
 		<version>2.0.0</version>
-		<date>2023-10-17</date>
+		<date>2023-10-21</date>
 	</packageinformation>
 
 	<authorinformation>
@@ -29,7 +29,7 @@
 	</instructions>
 
 	<instructions type="update" fromversion="1.0.1">
-		<instruction type="file"></instruction>
+		<instruction type="bbcode"></instruction>
 	</instructions>
 
 	<instructions type="update" fromversion="1.0.0">
