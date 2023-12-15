@@ -7,7 +7,7 @@ Usage
 
 Example:
 
-[progress=30,2]Title[/progress]
+`[progress=30,2]Title[/progress]`
 
 The first attribute defines the progress on a scale of "0-100".
 
