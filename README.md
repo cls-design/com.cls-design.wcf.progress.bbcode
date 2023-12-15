@@ -1,7 +1,7 @@
 # com.cls-design.wcf.progress.bbcode
 WoltLab Suite: Progress BBCode
 
-This BBCode provides a simple representation of a progress in the form of a bar.
+This BBCode provides a simple representation of a progress in the shape of a bar.
 
 Usage
 
